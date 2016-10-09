@@ -5,3 +5,9 @@ h1 {
 nav a {
 	color: green;
 }
+
+div {
+	background-color: #b0c4de;
+	color: white;
+	padding: 10px;
+}
