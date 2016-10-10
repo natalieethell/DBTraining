@@ -2,12 +2,35 @@ h1 {
 	text-align: center;
 }
 
-nav a {
-	color: green;
-}
-
 div {
 	background-color: #b0c4de;
 	color: white;
 	padding: 10px;
 }
+
+nav a {
+	display: block;
+	padding: 8px;
+	background-color: gray;
+	text-align: center;
+	color: white;
+}
+
+nav a:hover {
+    background-color: #111;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+
