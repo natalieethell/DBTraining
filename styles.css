@@ -1,16 +1,22 @@
-.logo {
+#logo {
 	text-align: center;
-	background-color: #9F5B3E;
-	color: gray;
+	color: #000;
+	display: block;
+	padding: 8px 16px;
+    text-decoration: none;
 }
 
 body {
 	background-color: #FFA47D;
 }
 
+.who-are-we {
+	text-align: center;
+}
+
 div {
 	background-color: #FFA47D;
-	padding-top: 10px;
+	padding-top: 60px;
 }
 
 ul {
