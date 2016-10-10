@@ -1,27 +1,31 @@
 h1 {
 	text-align: center;
+	background-color: #9F5B3E;
+}
+
+body {
+	background-color: #FFA47D;
 }
 
 div {
-	background-color: #b0c4de;
-	color: white;
-	padding: 10px;
+	background-color: #FFA47D;
+	padding-top: 10px;
 }
-
 
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left: 1px;
+    padding-right: 1px;
     width: 100%;
-    background-color: #f1f1f1;
+    background-color: #E5AB92;
     position: fixed;
     overflow: auto;
 }
 
 li {
 	float: left;
-	width: 33%;
+	width: 33.3%;
 }
 
 li a {
@@ -33,7 +37,7 @@ li a {
 }
 
 li a.active {
-    background-color: #4CAF50;
+    background-color: #E5AB92;
     color: white;
 }
 
