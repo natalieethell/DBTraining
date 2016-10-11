@@ -33,6 +33,7 @@ ul {
     width: 100%;
     background-color: #E5AB92;
     position: fixed;
+    z-index: 1;
     overflow: auto;
 }
 
@@ -61,13 +62,15 @@ li a:hover:not(.active) {
 
 .image { 
    width: 100%; /* for IE 6 */
+   z-index: -1;
 }
 
 h2 { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%; 
+  z-index: 0;
 }
 
 h2 span { 
