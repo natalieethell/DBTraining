@@ -86,6 +86,11 @@ nav {
 .about h2 span.spacer {
     padding: 0 5px;
 }
+
+.events {
+  padding-top: 60px;
+}
+
 .recipe-body{
   padding-top: 60px;
   text-align: center;
@@ -98,9 +103,7 @@ nav {
   margin: 0px;
 
 }
-  
 
-}
 .recipe-body p{
   padding: 5px;
 }
@@ -114,7 +117,6 @@ nav {
 .recipes{
   text-align: left;
   padding: 10px;
-
 }
 
 .events-content h1{
