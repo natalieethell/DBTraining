@@ -112,7 +112,18 @@ nav {
   width: 600px;
   border: 3px solid white;
   border-radius: 10%;
-  padding: 5px;
+  padding: 0px;
+}
+.crop{
+  width: 600px;
+  height: 500px;
+  overflow: hidden;
+  border: 3px solid white;
+  border-radius: 10%;
+}
+.crop img{
+  width: 600px;
+  margin-bottom: -10px;
 }
 .recipes{
   text-align: left;
