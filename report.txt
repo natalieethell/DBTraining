@@ -1,0 +1,5 @@
+Natalie Ethell
+
+a) One of the challenges I faced was figuring out the relationship between the text that overlays the photo on the homepage and the navigation bar. The ordering of these items matters, and originally I had the text passing ontop of the navigation bar. Lawrence and I also found that the naming of classes and ids can become confusing if not standardized in some way between us. A lot can end up in the CSS file, and it's good to be able to figure out what corresponds to what.
+
+b) I would like to learn how to make slideshows on a webpage for all of the great waffle photos we have.
