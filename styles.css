@@ -81,3 +81,7 @@ h2 span {
 h2 span.spacer {
     padding: 0 5px;
 }
+
+.events {
+  padding-top: 60px;
+}
