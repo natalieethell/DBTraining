@@ -8,6 +8,8 @@
 
 body {
 	background-color: #FFA47D;
+  padding: 0px;
+  margin: 0px;
 }
 
 .who-are-we {
@@ -18,28 +20,29 @@ body {
     width: 100%;
 }
 
-div {
-	background-color: #FFA47D;
-	padding-top: 40px;
-}
 
-ul {
-    list-style-type: none;
-    margin: 0;
+
+nav {
+    margin: 0px;
     padding-left: 1px;
     padding-right: 1px;
     width: 100%;
     background-color: #E5AB92;
     position: fixed;
+    z-index: 1;
     overflow: auto;
 }
+.navbar ul {
+  list-style-type: none;
+  margin: 0px;
+}
 
-li {
+.navbar li {
 	float: left;
 	width: 25%;
 }
 
-li a {
+.navbar li a {
     display: block;
     color: #000;
     text-align: center;
@@ -47,28 +50,30 @@ li a {
     text-decoration: none;
 }
 
-li a.active {
+.navbar li a.active {
     background-color: #E5AB92;
     color: white;
 }
 
-li a:hover:not(.active) {
+.navbar li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
 
 .image { 
    width: 100%; /* for IE 6 */
+   z-index: -1;
 }
 
-h2 { 
-   position: absolute; 
-   top: 200px; 
-   left: 0; 
-   width: 100%; 
+.about h2 { 
+  position: absolute; 
+  top: 200px; 
+  left: 0; 
+  width: 100%; 
+  z-index: 0;
 }
 
-h2 span { 
+.about h2 span { 
    display: block;
    color: white; 
    font: bold 24px/45px Arial,Helvetica, Sans-Serif; 
@@ -78,10 +83,38 @@ h2 span {
    padding: 10px; 
 }
 
-h2 span.spacer {
+.about h2 span.spacer {
     padding: 0 5px;
 }
 
 .events {
   padding-top: 60px;
+}
+
+.recipe-body{
+  padding-top: 60px;
+  text-align: center;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.recipe-body h1{
+  z-index: 1;
+  margin: 0px;
+
+}
+
+.recipe-body p{
+  padding: 5px;
+}
+
+.classic-image{
+  width: 600px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+.recipes{
+  text-align: left;
+  padding: 10px;
 }
