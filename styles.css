@@ -122,5 +122,6 @@ nav {
 }
 
 .events-content p{
-  padding-left: 50px;
+  background-color: papayawhip;
+  padding: 10px;
 }
