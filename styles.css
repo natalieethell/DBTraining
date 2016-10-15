@@ -110,6 +110,12 @@ nav {
   border-radius: 10%;
   padding: 0px;
 }
+.chocolate-image{
+  width: 600px;
+  border: 3px solid white;
+  border-radius: 10%;
+  padding: 0px;
+}
 .crop{
   width: 600px;
   height: 500px;
